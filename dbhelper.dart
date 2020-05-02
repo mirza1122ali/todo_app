@@ -46,11 +46,11 @@ class DbHelper {
 
   Future<Database> get db async {
 
-    if (_db == null) {
+    
 
       _db = await initializeDb();
 
-    }
+    
 
     return _db;
 
